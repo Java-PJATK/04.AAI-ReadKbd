@@ -43,10 +43,7 @@ public class ReadKbd {
 We used here `nextInt` (to read an `int`), `nextDouble` (to read a `double`), and `next` (to read a `String`): there are analogous functions `nextByte`, `nextShort`, `nextLong`, `nextBigInteger`, `nextFloat`, `nextBigDecimal`, and `nextBoolean`.  
 
 > [!NOTE]
-> when all ata has been read, the scanner should be closed (by invoking scan.close(), as shown in the example).  
+> when all ata has been read, the scanner should be closed (by invoking `scan.close()`, as shown in the example).  
 
-In order to read data from a graphical widget, or to display a message (`string`), one can use static functions from class `JOptionPane`, as shown below (the first argument of these functions is null for reasons we will learn about later). Note that showInputDi-
-alog returns a string (strictly speaking the reference to a string); if we know that this
-string represents a number and we want this number as an int or a double, we have
-to parse this string to get numbers using Integer.parseInt, or Double.parseDouble):
+In order to read data from a graphical widget, or to display a message (`string`), one can use static functions from class `JOptionPane`, as shown below (the first argument of these functions is null for reasons we will learn about later). Note that `showInputDialog` returns a string (strictly speaking the reference to a string); if we know that this string represents a number and we want this number as an int or a double, we have to parse this string to get numbers using Integer.parseInt, or Double.parseDouble):
 
